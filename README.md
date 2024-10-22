@@ -12,7 +12,7 @@ The main problem is that drivers are not aware of their fatigue levels and conti
 Link: https://www.channelnewsasia.com/singapore/big-read-rising-traffic-accidents-road-culture-4328841
 
 ## Datasets
-Majority of our datasets used will be from Kaggle. The datasets are as follows:
+Majority of our datasets used will be from Kaggle. The possible datasets are as follows:
 - https://www.kaggle.com/datasets/rakibuleceruet/drowsiness-prediction-dataset/data
 - https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset/data
 - https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd/data
