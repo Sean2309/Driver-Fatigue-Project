@@ -16,3 +16,41 @@ Majority of our datasets used will be from Kaggle. The possible datasets are as 
 - https://www.kaggle.com/datasets/rakibuleceruet/drowsiness-prediction-dataset/data
 - https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset/data
 - https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd/data
+
+## Acknowledgements
+Ultralytics YOLOv5 software:
+> **Ultralytics YOLOv5**  
+> Author: Glenn Jocher  
+> Year: 2020  
+> Version: 7.0  
+> License: AGPL-3.0  
+> URL: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
+> DOI: [10.5281/zenodo.3908559](https://doi.org/10.5281/zenodo.3908559)  
+> ORCID: [0000-0001-5950-6979](https://orcid.org/0000-0001-5950-6979)
+
+YOLOv5 Models are provided under [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) and [Enterprise](https://www.ultralytics.com/license) licenses.
+
+## Directory Structure
+```
+Driver-Fatigue-Project
+├── Datasets/
+│   ├── Dataset_2/
+│   │   ├── Original/
+│   │   │   ├── Drowsy/
+│   │   │   └── Non Drowsy/
+│   │   ├── Processed_Images/
+│   │   │   ├── Images/
+│   │   │   │   ├── train/
+│   │   │   │   ├── val/
+│   │   │   │   └── test/
+│   │   │   └── Labels/  # Contains YOLO-format image annotation files
+│   │   │       ├── train/
+│   │   │       ├── val/
+│   │   │       └── test/
+├── preprocessing/
+│   └── data_preprocessing.ipynb
+├── model/
+│   ├── yolo/
+│   │   ├── dataset.yml
+│   │   └── yolo_object_detection.ipynb
+```
