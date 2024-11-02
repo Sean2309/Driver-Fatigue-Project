@@ -18,15 +18,16 @@ Majority of our datasets used will be from Kaggle. The possible datasets are as 
 - https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd/data
 
 ## Acknowledgements
-Ultralytics YOLOv5 software:
-> **Ultralytics YOLOv5**  
-> Author: Glenn Jocher  
-> Year: 2020  
-> Version: 7.0  
+> **Ultralytics YOLOv8**  
+> Author: Glenn Jocher, Ayush Chaurasia, Jing Qiu  
+> Year: 2023  
+> Version: 8.0.0  
 > License: AGPL-3.0  
-> URL: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
-> DOI: [10.5281/zenodo.3908559](https://doi.org/10.5281/zenodo.3908559)  
-> ORCID: [0000-0001-5950-6979](https://orcid.org/0000-0001-5950-6979)
+> URL: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)  
+> ORCID:  
+> - [0000-0001-5950-6979](https://orcid.org/0000-0001-5950-6979) (Glenn Jocher)  
+> - [0000-0002-7603-6750](https://orcid.org/0000-0002-7603-6750) (Ayush Chaurasia)  
+> - [0000-0003-3783-7069](https://orcid.org/0000-0003-3783-7069) (Jing Qiu)
 
 YOLOv5 Models are provided under [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) and [Enterprise](https://www.ultralytics.com/license) licenses.
 
@@ -39,14 +40,15 @@ Driver-Fatigue-Project
 │   │   │   ├── Drowsy/
 │   │   │   └── Non Drowsy/
 │   │   ├── Processed_Images/
-│   │   │   ├── Images/
-│   │   │   │   ├── train/
-│   │   │   │   ├── val/
-│   │   │   │   └── test/
-│   │   │   └── Labels/  # Contains YOLO-format image annotation files
-│   │   │       ├── train/
-│   │   │       ├── val/
-│   │   │       └── test/
+│   │   │   ├── train/
+│   │   │   │   ├── images/
+│   │   │   │   ├── labels/
+│   │   │   ├── val/
+│   │   │   │   ├── images/
+│   │   │   │   ├── labels/
+│   │   │   └── test/ 
+│   │   │       ├── images/
+│   │   │       ├── labels/
 ├── preprocessing/
 │   └── data_preprocessing.ipynb
 ├── model/
