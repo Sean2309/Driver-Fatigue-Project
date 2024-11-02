@@ -1,15 +1,14 @@
 # Driver-Fatigue-Project
 
 ## Introduction
-Singapore is a densely populated city of over 6 million people to date. With the increasing number of vehicles on the road, the number of accidents is also increasing. According to the Singapore Police Force, accident fatalities has risen from 104 in 2022 to 131 in 2023 ([Link](https://www.police.gov.sg/-/media/D4435F72157942D3B323EE4A507D4CFB.ashx)).
+Singapore, a densely populated city of over six million people, faces an increasing challenge with road safety due to the growing number of vehicles on its roads. The Singapore Police Force reports a worrying rise in accident fatalities, from `104` in 2022 to `131` in 2023 ([source](https://www.police.gov.sg/-/media/D4435F72157942D3B323EE4A507D4CFB.ashx)). Though driver fatigue is not the leading cause of road accidents, it is a significant contributing factor, especially when combined with other risky behaviors, such as driving under the influence of alcohol.
 
-The main cause of these accidents is driver fatigue. Fatigue is a state of mental and physical exhaustion that can lead to accidents. It is a common cause of accidents in Singapore. The aim of this project is to develop a system that can detect driver fatigue and alert the driver to prevent accidents.
-
+Research highlights the prevalence of sleepiness and fatigue among drivers in Singapore; one study found that `32.9%` of taxi drivers experience sleepiness and fatigue on the job ([source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4350472/)). This underscores the need for measures to help drivers become more aware of their fatigue levels to reduce accident risks.
 
 ## Problem Statement
-The main problem is that drivers are not aware of their fatigue levels and continue to drive, which can lead to accidents. The aim of this project is to develop a system that can detect driver fatigue and alert the driver to prevent accidents.
+Drivers are often unaware of their fatigue levels, continuing to drive in a compromised state, which increases the risk of accidents. This project aims to develop a driver fatigue detection system that alerts drivers to their fatigue levels in real-time, providing an opportunity to prevent fatigue-related incidents and enhance road safety.
 
-Link: https://www.channelnewsasia.com/singapore/big-read-rising-traffic-accidents-road-culture-4328841
+Reference : https://www.channelnewsasia.com/singapore/big-read-rising-traffic-accidents-road-culture-4328841
 
 ## Datasets
 Majority of our datasets used will be from Kaggle. The possible datasets are as follows:
@@ -29,7 +28,6 @@ Majority of our datasets used will be from Kaggle. The possible datasets are as 
 > - [0000-0002-7603-6750](https://orcid.org/0000-0002-7603-6750) (Ayush Chaurasia)  
 > - [0000-0003-3783-7069](https://orcid.org/0000-0003-3783-7069) (Jing Qiu)
 
-YOLOv5 Models are provided under [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) and [Enterprise](https://www.ultralytics.com/license) licenses.
 
 ## Directory Structure
 ```
