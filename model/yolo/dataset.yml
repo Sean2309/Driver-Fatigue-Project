@@ -1,0 +1,8 @@
+# dataset.yml
+path: ./Dataset_2/Processed_Images/
+train: train
+val: val
+test: test
+
+nc: 2
+names: ["Drowsy", "Non Drowsy"]
